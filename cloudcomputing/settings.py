@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-gh#gwd92bn3wg6pic!m1ev4v*vmq$8!e=h2es9_unj&_l5jenl
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["https://lively-field-0f4252d0f.5.azurestaticapps.net","backends.azurewebsites.net"]
 
 
 # Application definition
@@ -133,7 +133,7 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CORS_ALLOWED_ORIGINS = ["http://localhost:5173"]
+CORS_ALLOWED_ORIGINS = ["https://lively-field-0f4252d0f.5.azurestaticapps.net"]
 
 REST_FRAMEWORK = {
     
